@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>双飞翼</title>
+  <style>
+    body{ color: #fff; font-size: 20px; }
+    header,footer { height: 50px; background-color: #189; }
+    .wrapper { padding: 0; overflow: hidden; }
+    .col { float: left; }
+    .main { width: 100%; background-color: green; }
+    .main-wrap { margin: 0 100px; height: 200px; }
+    .left { width: 100px; height: 200px; margin-left: -100%; background-color: red; }
+    .right { width: 100px; height: 200px; margin-left: -100px; background-color: blue; }
+  </style>
+</head>
+
+<body>
+  <header>header</header>
+  <section class="wrapper">
+      <section class="col main">
+          <section class="main-wrap">main</section>
+      </section>
+      <aside class="col left">left</aside>
+      <aside class="col right">right</aside>
+  </section>
+  <footer>footer</footer>
+</body>
+
+</html>
